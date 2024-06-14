@@ -1,0 +1,83 @@
+body {
+    background-color: #F4F6FA; 
+}
+.Welcome{
+    padding: 60px;
+    
+    display: flex ;
+    
+}
+
+.Initial {
+    width: 50%;
+  }
+
+.Initial h1{
+    font-size: 4.5rem;
+    color: #313E51;
+}
+.Initial span{
+    font-weight: 10;
+}
+.Initial p{
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #3B4D66;
+}
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;  
+    text-decoration: none;
+    
+  }
+.img-div {
+  border-radius: 10px;
+  align-items: center;
+  border: #e5e7eb;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 0;
+  border: 0;
+}
+  .column-container a {
+    text-decoration: none;
+    padding-top: 10px;
+    font-weight: bolder;
+    padding-left: 50px;
+    color: #313E51;
+  }
+  .column-item {
+    width: 70vh;
+    height: 14vh;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    justify-items: left;
+    display: flex;
+    border: #e5e7eb;
+
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.column-item:hover,
+.column-item:focus-within {
+  transform: translateY(-10px);
+}
+  .column-item .img-out{
+    padding: 5px;
+    align-items: left;
+    margin-top: 5px;
+    width: 46px ;
+    height: 36px;
+    
+  }
+  
+ 
+
+
