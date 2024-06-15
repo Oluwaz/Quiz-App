@@ -12,38 +12,34 @@ function Question() {
   const answerOdj = assessmentObj["options"];
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
-  const [score, setScore] = useState(0);
-  const [showScore, setShowScore] = useState(false);
-  const [showxt, setText] = useState(false);
-  
-
   return (
     <div className="container">
       <div className="initial">
         <div className="question-count">
-          <span>Question {currentQuestion + 1}</span> of {questionObj.length}
-          <div className="question-text">
-            {questionObj[currentQuestion].question}
-          </div>
+            <span>Question {currentQuestion + 1}</span> of {questionObj.length}
+            <div className="question-text">
+              {questionObj[currentQuestion].question}
+            </div>      
         </div>
         <div class="progress-container">
-          <div class="progress-bar">
-                ffffffffff
-          </div>
+            <div class="progress-bar">
+                
+            </div>
         </div>
       </div>
 
         <div className="answers-section">
             <ul>
-                <li>MOdem</li>
-                <li>Lan</li>
-                <li>Pasword</li>
-                <li>sdddd</li>
+                <li> <div className="letter">A</div><div className="word">Home Tool Markup Language</div> </li>
+                <li> <div className="letter">B</div><div className="word">Home Tool Markup Languages</div> </li>
+                <li> <div className="letter">C</div><div className="word">Home Tool Markup Languages</div> </li>
+                <li> <div className="letter">D</div><div className="word">Home Tool Markup Languages</div> </li>
+
+                
             </ul>
-            <button id="nextQuestion">Next Question</button>
+            <button id="nextQuestion">Submit</button>
         </div>
     </div>
   );
 }
-
 export default Question;

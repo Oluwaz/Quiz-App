@@ -3,7 +3,7 @@
 }
 body {
   background-color: hwb(220 96% 2%);
-  font-family: sans-serif;
+  font-size: medium;
 }
 .Welcome {
   padding: 60px;
@@ -33,6 +33,7 @@ body {
   gap: 1rem;
   text-decoration: none;
   width: 50%;
+  margin-top: 50px;
 }
 .img-div {
   border-radius: 10px;

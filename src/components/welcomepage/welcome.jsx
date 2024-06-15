@@ -26,7 +26,7 @@ const Welcome = () => {
             <div style={{ background: "#fff1e9" }} className="img-div">
               <img className="img-out" src={htmlicon1} />
             </div>
-            HTMLS
+            HTML
           </div>
         </Link>
         <Link id="link" to="/questions" state={{ index: 1 }}>
