@@ -1,0 +1,24 @@
+* {
+  background-color: hwb(220 96% 2%);
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.initial {
+    width: 50%;
+    background-color: blueviolet;
+}
+.answers-section {
+    width: 50%;
+    background-color: aqua;
+}
+.question-count {
+    background-color: bisque;
+}
+.question-text {
+    background-color: chartreuse;
+}
