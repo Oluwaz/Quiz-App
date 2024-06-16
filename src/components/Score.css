@@ -1,0 +1,71 @@
+.outer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 70px;
+    top: 130px;
+}
+
+.statement-div {
+    width: 50%;
+    height: fit-content;
+    
+}
+.statement-div h2{
+    font-size: 4rem;
+    font-family: "rubik";
+    font-weight: 100;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+    line-height: 80px;
+  color: #313e51;
+}
+.statement-div span {
+    font-weight: 600;
+}
+.score-writing {
+    background-color: white;
+    height: fit-content;
+    border: rgb(232, 223, 223);
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 0px;
+    line-height: 0px;
+    color: #313e51;
+
+}
+.score-board {
+    width: 40%;
+    height: fit-content;
+    line-height: 0px;
+}
+.score-board .pp{
+    font-size: 1.8rem;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.score-board .p1 {
+    font-size: 9rem;
+    font-weight: 600;
+}
+.score-board .p2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  color: #c0cad9;
+  
+}
+
+#nextQuestion {
+    margin: auto;
+    width: 505px;
+    height: 100px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #A729F5;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}

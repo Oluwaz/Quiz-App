@@ -2,6 +2,8 @@ import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import data from "../starter-code/data.json";
 import "./Question.css";
+import { Link } from "react-router-dom";
+
 
 function Question() {
   const location = useLocation();
