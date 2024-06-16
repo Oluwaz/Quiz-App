@@ -21,10 +21,11 @@ body{
 }
 .question-count {
     height: 40vh;
-    font-size: 1.2rem;
-    color: #b9c2ce;
-    font-weight: 600;
+    font-size: 1.3rem;
+    color: #b8c9e0;
+    font-weight: 400;
     line-height: 60px;
+    font-style: italic;
 }
 .question-text {
     color: #3b4d66;
