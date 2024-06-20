@@ -4,14 +4,13 @@ import Welcome from './components/welcomepage/welcome';
 import Question from './components/Question';
 import Score from './components/Score';
 
+
 const App = () => {
     return (
         <Routes>
             <Route path='/' element={<Welcome/>} />
             <Route path='/questions' element={<Question/>} />
             <Route path='/score' element={<Score/>} />
-
-
         </Routes>
     );
 };

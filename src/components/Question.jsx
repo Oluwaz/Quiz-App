@@ -3,6 +3,7 @@ import { useState } from "react";
 import data from "../starter-code/data.json";
 import "./Question.css";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 
 function Question() {
@@ -15,6 +16,9 @@ function Question() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
   return (
+    <section>
+       <Navbar/>
+
     <div className="container">
       <div className="initial">
         <div className="question-count">
@@ -42,6 +46,8 @@ function Question() {
             <button id="nextQuestion">Submit</button>
         </div>
     </div>
+    </section>
+
   );
 }
 export default Question;

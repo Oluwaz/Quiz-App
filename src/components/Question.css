@@ -13,7 +13,7 @@ body{
     flex-direction: row;
     position: relative;
     left: 90px;
-    top: 100px;
+    top: 30px;
 }
 .initial {
     width: 50%;
@@ -28,9 +28,11 @@ body{
     font-style: italic;
 }
 .question-text {
-    color: #3b4d66;
+    color: #2d394b;
     height: 30vh;
     font-size: 2.3rem;
+    font-weight: 600;
+    font-style: normal
 }
 
 .letter {
@@ -55,7 +57,7 @@ li:hover .letter {
     display: flex;
     align-items: center;
     height: 100px;
-    width: 450px;
+    width: 465px;
     padding-left: 15px;
     color: #313e51;
     background-color: white;

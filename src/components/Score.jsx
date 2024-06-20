@@ -1,5 +1,6 @@
 import React from "react";
 import "./Score.css";
+import Navbar from "./Navbar";
 
 
 
@@ -7,7 +8,10 @@ import "./Score.css";
 function Score() {
 
   return (
-    <section className="outer">
+    <section >
+      <Navbar/>
+      <div className="outer">
+
       <div className="statement-div">
       <h2 >
         Quiz completed <br />
@@ -32,6 +36,8 @@ function Score() {
 
         <button id="nextQuestion">Play Again</button>
       </div>
+      </div>
+
     </section>
   );
 };

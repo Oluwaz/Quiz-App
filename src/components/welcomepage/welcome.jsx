@@ -7,12 +7,17 @@ import htmlicon2 from "../../starter-code/assets/images/icon-css.svg";
 import htmlicon3 from "../../starter-code/assets/images/icon-js.svg";
 import htmlicon4 from "../../starter-code/assets/images/icon-accessibility.svg";
 import background from "../../starter-code/assets/images/pattern-background-desktop-light.svg";
-
+import Navbar from "../Navbar.jsx";
 
 
 const Welcome = () => {
   return (
-    <section className="Welcome">
+     
+
+    <section >
+      <Navbar/>
+        <div className="Welcome">
+
       <div className="Initial">
         <h1 className="initial-h1">
           <span id="own">Welcome to the </span> <br /> Frontend Quiz!
@@ -50,10 +55,12 @@ const Welcome = () => {
             <div style={{ background: "#f6e7ff" }} className="img-div">
               <img className="img-out" src={htmlicon4} />
             </div>
-            ACCESSIBILITY
+            Accessibilty
           </div>
         </Link>
       </div>
+      </div>
+
     </section>
   );
 };

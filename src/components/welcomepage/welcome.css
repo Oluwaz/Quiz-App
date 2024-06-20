@@ -6,7 +6,7 @@ body {
   font-size: medium;
 }
 .Welcome {
-  padding: 60px;
+  padding: 0px 60px;
   display: flex;
 }
 
@@ -46,7 +46,7 @@ body {
 .column-container a {
   text-decoration: none;
   padding-top: 10px;
-  font-weight: bolder;
+  font-weight: 600;
   padding-left: 50px;
   color: #313e51;
 }
