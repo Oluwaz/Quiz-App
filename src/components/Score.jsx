@@ -1,11 +1,16 @@
 import React from "react";
 import "./Score.css";
 import Navbar from "./Navbar";
+import { useLocation } from "react-router-dom";
 
 
 
 
 function Score() {
+  const location = useLocation();
+  const { scoreCount } = location.state;
+
+  console.log(scoreCount);
 
   return (
     <section >

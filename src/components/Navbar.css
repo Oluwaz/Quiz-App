@@ -42,6 +42,9 @@
     border-radius: 30px;
     position: relative;
 }
+
+/*You're going to need to animate the ball so that when (yeah transition and shit) so that....blah blah typing is hard. You get what I mean
+So...functionality first, and animation later*/
 .toggle-ball {
     background-color: white;
     width: 21px;

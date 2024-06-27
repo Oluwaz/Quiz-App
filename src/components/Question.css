@@ -48,7 +48,42 @@ body{
 
 li:hover .letter {
     color: #A729F5; /* Background color on hover */
-  } 
+    background-color: #F6E7FF;
+} 
+
+li.selected {
+    border: 2px solid #A729F5;
+}
+
+li.selected .letter {
+    background-color: #A729F5;
+    color: white;
+}
+
+li.correct {
+    border: 2px solid #26D782;
+}
+
+li.correct .letter {
+    background-color: #26D782;
+    color: white;
+}
+
+li.not_correct {
+    border: 2px solid#EE5454;
+}
+
+li.not_correct .letter {
+    background-color: #EE5454;
+    color: white;
+}
+
+li.rightChoice {
+    border: 2px solid blue;
+}
+
+
+
 .word {
     margin-left: 20px;
 }
@@ -68,15 +103,6 @@ li:hover .letter {
     cursor: pointer;
 }
 
-.answers-section ul li {
-  transition: transform 0.3s ease-in-out;
-
-}
-.answers-section ul li:hover,
-.answers-section ul li:focus-within {
-  transform: translateY(-10px);
-
-}
 .container button{
     margin: auto;
     width: 466px;

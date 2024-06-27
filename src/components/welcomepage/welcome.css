@@ -12,6 +12,7 @@ body {
 
 .Initial {
   width: 50%;
+
 }
 
 .Initial h1 {
@@ -42,6 +43,7 @@ body {
   margin-right: 20px;
   padding: 0;
   border: 0;
+
 }
 .column-container a {
   text-decoration: none;
