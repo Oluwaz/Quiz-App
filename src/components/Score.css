@@ -38,7 +38,7 @@
 .score-board {
     width: 40%;
     height: fit-content;
-    line-height: 0px;
+    line-height:40px;
 }
 .score-board .pp{
     font-size: 1.8rem;

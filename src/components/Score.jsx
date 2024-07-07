@@ -28,11 +28,10 @@ function Score() {
       <div className="score-board">
         <div className="score-writing">
           <div className="pp">
-            {}
             HTML
           </div>
           <p className="p1">
-            9
+            {scoreCount}
           </p>
           <p className="p2">
             out of 10
